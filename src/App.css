@@ -1,0 +1,18 @@
+.cardd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideimg
+{
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.pas{
+    width: 50%;
+}
+input#char,
+input#num {
+    width: 20px;
+}
