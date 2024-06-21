@@ -8,7 +8,7 @@ function Navbar() {
         <div class="nav_container">
   <div class="logo">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Nyumbani_Hotel_Logo.png"/>
-    <p>Logo</p>
+  
   </div>
   <div class="menu">
     <ul>

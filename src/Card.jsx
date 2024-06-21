@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+import { Link } from 'react-router-dom'
 
 function Card({image,productName,price}) {
   return (
@@ -20,6 +21,7 @@ function Card({image,productName,price}) {
                 <div class="card-content">
                     <h2>{productName}</h2>
                     <p>{price}</p>
+                    <Link to={`/product/${item.id}`}><button>View More</button></Link>
                 </div>
             </div>
         </div>
